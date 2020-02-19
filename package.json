@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "ghpages": "rm -r dist; npm run build && echo wmf.zerosleep.dk >> dist/CNAME; gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",

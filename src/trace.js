@@ -1,8 +1,14 @@
 const steps = [
-  {title: "1. Farm", txt: "Illum omnis aliquid nihil aut. Voluptatibus a alias autdi hic. Autem ut consequatur repellat."},
-  {title: "2. Market", txt: 'Sunt et vel veritatis atque non eligendi rerum excepturi. Est quis molestias libero repellat deleniti blanditiis autem. Est quia sed modi veritatis nam. Temporibus cum voluptatem qui sed et quo.'},
-  {title: "3. Netherlands", txt: 'Bwer molestias libero repellat deleniti blanditiis autem. Est quia sed modi veritatis nam. Temporibu.'},
-  {title: "4. Copenhagen", txt: 'Di rerum excepturi. Est quis molestias libero repellat deleniti blanditiiritatis nam. Temporibus cum voluptatem qui sed et quo.'},
+  {title: "1. Farm", txt: `<span class="label success">CHECK-IN</span> Illum omnis aliquid nihil aut. Voluptatibus a alias autdi hic. 
+<p><a href="https://explorer.te-food.com/get_html/transaction/23183490">blockchain transation receipt</a>`},
+  {title: "2. Market", txt: `Sunt et vel veritatis atque non eligendi rerum excepturi. Est quis molestias libero repellat deleniti blanditiis autem. Est quia sed modi veritatis nam. Temporibus cum voluptatem qui sed et quo.
+  <p><a href="https://explorer.te-food.com/get_html/transaction/23183474">blockchain transation receipt</a>`},
+  {title: "3. Netherlands", txt: `Bwer molestias libero repellat deleniti blanditiis autem. Est quia sed modi veritatis nam. Temporibu.
+  <p><a href="https://explorer.te-food.com/get_html/transaction/23183464">blockchain transation receipt</a>`},
+  {title: "4. Copenhagen", txt: `
+  <span class="label success">CHECK-OUT</span>
+    Di rerum excepturi. Est quis molestias libero repellat deleniti blanditiiritatis nam. Temporibus cum voluptatem qui sed et quo.
+  <p><a href="https://explorer.te-food.com/get_html/transaction/23183464">blockchain transation receipt</a>`},
 ]
 
 const html = `
@@ -22,7 +28,7 @@ const html = `
       </div>
       <div class="cell auto padding-1">
           <h4>${title}</h4>
-          <p>${txt}</p>
+          <p>${txt}
       </div>
       </div>
 `

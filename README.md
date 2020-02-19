@@ -7,3 +7,6 @@ Installed CNAME liek this:
 `
 cfcli add -d zerosleep.dk wmf.zerosleep.dk johncoffee.github.io  -t CNAME
 `
+
+Develop  
+`webpack-dev-server`
