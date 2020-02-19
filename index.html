@@ -10,78 +10,28 @@
 <body class="height-100">
 
 <div class="grid-container full height-100">
-    <div class="grid-y grid-padding-y height-100">
-        <div class="cell shrink bg-primary  padding-horizontal-1">
+    <div class="grid-y height-100">
+        <div class="cell shrink bg-primary">
 
             <div class="grid-x align-justify">
-                <div class="cell shrink text-uppercase">
-                    PROOF
+                <div class="cell shrink padding-1">
+                    VIEW FOOD TRACE
                 </div>
                 <div class="cell shrink">
-                    <button class="button fullscreen-button hollow text-uppercase margin-0 padding-horizontal-1 padding-vertical-0">
-                        FULL SCREEN
-                        <script defer>
-                          function toggleFullScreen () {
-                            if (!document.fullscreenElement) {
-                              document.documentElement.requestFullscreen()
-                            } else {
-                              if (document.exitFullscreen) {
-                                document.exitFullscreen()
-                              }
-                            }
-                          }
-
-                          document.addEventListener('fullscreenchange', () => {
-                            const el = document.querySelector('.fullscreen-button')
-                            el.classList.toggle('hide')
-                          })
-
-                          document.querySelector('.fullscreen-button').addEventListener('click', toggleFullScreen)
-                        </script>
-                    </button>
                 </div>
             </div>
 
         </div>
 
         <div class="cell auto" style="overflow: scroll;">
-            <div class="grid-x align-center-middle height-100">
+            <div class="grid-x">
 
                 <div class="cell page" id="page-map">
-                    <img src="assets/Screenshot 2020-02-17 at 06.10.03.png" style="width: 100%">
+                    <img src="assets/map.png" style="max-width: unset;">
                 </div>
 
-                <div class="cell medium-8 align-self-middle page" id="page-timeline">
-                    <div class="padding-2 bg-secondary">
-                        <h3 class="text-center text-uppercase">The Story</h3>
-                    </div>
+                <div class="cell medium-8 page" id="page-timeline">
 
-                    <div class="grid-x width-100">
-                        <div class="cell shrink">
-                            <div class="dotline">
-                                <div class="dotline__line"></div>
-                                <div class="dotline__circle"></div>
-                            </div>
-                        </div>
-                        <div class="cell auto padding-1" >
-                            <h4>Farmer</h4>
-                            <p>Some text ...</p>
-                        </div>
-                    </div>
-                    <div class="grid-x width-100">
-                        <div class="cell shrink">
-                            <div class="dotline">
-                                <div class="dotline__line"></div>
-                                <div class="dotline__circle"></div>
-                            </div>
-                        </div>
-                        <div class="cell auto padding-1">
-                            <h4>Farmer</h4>
-                            <p>Et et ipsum optio quia. Qui adipisci voluptas cumque reprehenderit libero ea voluptatum. Repellendus aut ut et veritatis consequatur non architecto quisquam. Eum itaque cum ut quibusdam commodi. Libero eum et aut voluptas sit.
-
-                            <p>    Inventore molestiae aut laboriosam blanditiis reprehenderit. Qui sed minus velit ratione voluptatem. Ex quo consequuntur quo voluptas. Tempora et et assumenda minus minima labore. text ...</p>
-                        </div>
-                    </div>
                 </div>
 
                 <div class="cell page " id="page-profile">
