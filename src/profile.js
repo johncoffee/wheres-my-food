@@ -7,7 +7,8 @@ const html = `
       </div>
       <div class="media-object-section">
           <h4>Banjos and bananas</h4>
-          <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
+          <p>Culpa cumque illum veritatis ratione recusandae. Non doloremque officiis unde repellat qui omnis. Illo 
+          impedit qui quidem esse praesentium exercitationem qui..</p>             
       </div>
   </div>
 `

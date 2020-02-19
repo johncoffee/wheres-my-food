@@ -3,9 +3,14 @@ import "foundation-sites/dist/css/foundation.min.css"
 import "./styles.css"
 
 // assets
-import "./assets/Screenshot 2020-02-17 at 06.10.03.png"
+import "./assets/map.png"
 
 import './profile.js'
+import './trace.js'
 
 // menu
 import "./menu.js"
+
+
+
+
