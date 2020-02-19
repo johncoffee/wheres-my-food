@@ -1,0 +1,42 @@
+
+.bg-primary {
+    background-color: #cbf35b;
+}
+.bg-secondary {
+    background-color: #84c9fa;
+    color: #fff;
+}
+.text-white {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+.dotline {
+    position: relative;
+    height: 100%;
+    width: 100px;
+}
+.dotline__circle {
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    background: #84c9fa;
+    border-radius: 50%;
+}
+.dotline__line {
+    left: 50%;
+    width: 3px;
+    margin-left: -1.5px;
+    position: absolute;
+    height: 100%;
+    background: #84c9fa;
+}
