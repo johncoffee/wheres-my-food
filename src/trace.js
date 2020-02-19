@@ -12,6 +12,9 @@ const steps = [
 ]
 
 const html = `
+<div>
+    <img src="assets/map.png">
+</div>
 <div class="padding-2 bg-secondary">
       <h3 class="text-center text-uppercase">The trace to origin</h3>
   </div>
